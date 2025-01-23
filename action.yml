@@ -1,0 +1,14 @@
+name: 'action-demo'
+author: 'WooSharing'
+version: '1.0.0'
+description: 'this is a action plugin demo'
+inputs:
+  name:
+    description: 'input params called name'
+    default: true
+runs:
+  using: node20
+  main: dist/index.js
+  post: dist/index.js
+
+
